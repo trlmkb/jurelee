@@ -1,0 +1,39 @@
+:root {
+  /* --color-primary: #edd252; */
+  --color-primary: #efa92c;
+  --color-primary-faded: #fcea95;
+
+  /* Spacers */
+  --spacer-xxs: 0.4rem;
+  --spacer-xs: 0.8rem;
+  --spacer-s: 1.2rem;
+  --spacer-m: 1.6rem;
+  --spacer: var(--spacer-m); /* alias for --spacer-m */
+  --spacer-l: 2rem;
+  --spacer-xl: 2.4rem;
+  --spacer-xxl: 3.2rem;
+  --spacer-xxxl: 4rem;
+
+  --container: 172.8rem;
+
+  /* Form */
+  --form-item-height: 4.8rem;
+
+  /* Misc */
+  --shadow: 0 10px 15px rgba(#000, 0.06);
+
+  /* theme */
+  --theme-body-bg: #fff;
+  --theme-header-bg: #fff;
+  --theme-header-link: #000;
+  --theme-text-color: #222;
+  --theme-logo-light-color: var(--color-primary);
+  --theme-link-color: #222;
+  --theme-link-color-hover: var(--color-primary);
+  --theme-border-color: #dfdfdf;
+}
+
+@custom-media --mobile (480px <= width < 768px);
+@custom-media --tablet-down (width < 1024px);
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
