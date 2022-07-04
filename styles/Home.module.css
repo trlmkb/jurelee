@@ -54,8 +54,9 @@
   @media (--tablet-down) {
     flex-direction: column-reverse;
     gap: 4rem;
-    justify-content: flex-start;
+    align-items: flex-start;
     padding-top: 15vmin;
+    justify-content: center;
   }
 }
 
