@@ -35,5 +35,6 @@
 
 @custom-media --mobile (480px <= width < 768px);
 @custom-media --tablet-down (width < 1024px);
+@custom-media --mobile-down (width < 768px);
 
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;

@@ -25,7 +25,7 @@ module.exports = {
         unit: 'rem',
         breakpoint: 1724,
         breakpointUnit: 'px',
-        factor: 10,
+        factor: 3,
         class: false,
         unitPrecision: 6,
         safariIframeResizeBugFix: false,
